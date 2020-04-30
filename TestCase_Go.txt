@@ -24,6 +24,7 @@ Monsters have 40% increased Accuracy Rating
 Players have 25% less Armour
 Players have 30% reduced Chance to Block
 Player chance to Dodge is Unlucky
+Monsters deal 65% extra Physical Damage as Fire
 --------
 Travel to this Map by using it in a personal Map Device. Maps can only be used once.
 --------

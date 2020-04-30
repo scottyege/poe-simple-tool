@@ -91,7 +91,9 @@ if(StrLen(result_0) = 0 and StrLen(result_1) = 0)
 else
 {
     ToolTip, =======`n %result_0% `n=======`n %result_1%
-    SoundPlay, skullsound2.mp3
+
+    if(StrLen(result_0) > 0)
+        SoundPlay, skullsound2.mp3
 }
 
 Loop
