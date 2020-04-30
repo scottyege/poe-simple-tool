@@ -5,8 +5,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 filterFile := "HateMod.ini"
 
-toggle := false
-
 filter_0 := []
 filter_1 := []
 
@@ -33,18 +31,57 @@ if ErrorLevel
 }
 
 clipboard := clipboard
-result_0 := ""
-result_1 := ""
-for k,v in filter_0
+affix := []
+skipCount := 0
+startCatch := 3
+Loop, Parse, clipboard, `n, `r
 {
-    if InStr(clipboard, v)
-        result_0 := v "`n" result_0
+    if(skipCount = startCatch)
+    {
+        if(A_LoopField = "--------")
+            break
+        else
+            affix.Push(A_LoopField)
+    }
+    else if(A_LoopField = "--------")
+    {
+        skipCount++
+    }
 }
 
-for k,v in filter_1
+;XD := ""
+;for k,v in affix
+;{
+;    XD := XD k ":" v "`n"
+;}
+;MsgBox %XD%
+
+result_0 := ""
+result_1 := ""
+
+for _k,_v in affix
 {
-    if InStr(clipboard, v)
-        result_1 := v "`n" result_1
+    for a,b in filter_0
+    {
+        if InStr(_v, b)
+        {
+            if(StrLen(result_0) = 0)
+                result_0 := _v
+            else
+                result_0 := result_0 "`n" _v 
+        }
+    }
+
+    for a,b in filter_1
+    {
+        if InStr(_v, b)
+        {
+            if(StrLen(result_1) = 0)
+                result_1 := _v
+            else
+                result_1 := result_1 "`n" _v 
+        }
+    }
 }
 
 if(StrLen(result_0) = 0 and StrLen(result_1) = 0)
@@ -53,8 +90,7 @@ if(StrLen(result_0) = 0 and StrLen(result_1) = 0)
 }
 else
 {
-    toggle := true
-    ToolTip, %result_0% `n=======`n %result_1%
+    ToolTip, =======`n %result_0% `n=======`n %result_1%
     SoundPlay, skullsound2.mp3
 }
 

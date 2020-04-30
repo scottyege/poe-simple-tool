@@ -16,6 +16,7 @@ Monsters have 50% chance to Avoid Elemental Ailments
 Monsters reflect 15% of Elemental Damage
 Monsters gain an Endurance Charge on Hit
 Monsters gain a Frenzy Charge on Hit
+Players cannot Regenerate Life, Mana or Energy Shield
 --------
 Travel to this Map by using it in a personal Map Device. Maps can only be used once.
 --------
