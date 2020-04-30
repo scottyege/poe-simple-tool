@@ -1,0 +1,22 @@
+Rarity: Rare
+Cyclopean Sanctum
+Burial Chambers Map
+--------
+Map Tier: 7
+Atlas Region: Valdo's Rest
+Item Quantity: +76% (augmented)
+Item Rarity: +34% (augmented)
+Monster Pack Size: +22% (augmented)
+Quality: +20% (augmented)
+--------
+Item Level: 78
+--------
+Area is inhabited by 2 additional Rogue Exiles
+Monsters have 50% chance to Avoid Elemental Ailments
+Monsters reflect 15% of Elemental Damage
+Monsters gain an Endurance Charge on Hit
+Monsters gain a Frenzy Charge on Hit
+--------
+Travel to this Map by using it in a personal Map Device. Maps can only be used once.
+--------
+Corrupted

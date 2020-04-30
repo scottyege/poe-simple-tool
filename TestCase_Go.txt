@@ -1,0 +1,30 @@
+Rarity: Rare
+Blasted Haven
+Burial Chambers Map
+--------
+Map Tier: 7
+Atlas Region: Valdo's Rest
+Item Quantity: +116% (augmented)
+Item Rarity: +69% (augmented)
+Monster Pack Size: +44% (augmented)
+--------
+Item Level: 79
+--------
+22% more Magic Monsters
+Monsters have 70% increased Area of Effect
+21% increased Monster Movement Speed
+26% increased Monster Attack Speed
+31% increased Monster Cast Speed
+Monsters fire 2 additional Projectiles
+Monsters deal 78% extra Physical Damage as Cold
+Magic Monster Packs each have a Bloodline Mod
+Monsters have 40% increased Accuracy Rating
++20% Monster Chaos Resistance
++30% Monster Elemental Resistance
+Players have 25% less Armour
+Players have 30% reduced Chance to Block
+Player chance to Dodge is Unlucky
+--------
+Travel to this Map by using it in a personal Map Device. Maps can only be used once.
+--------
+Corrupted
